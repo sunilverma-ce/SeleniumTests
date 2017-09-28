@@ -40,8 +40,8 @@ public class SDHome {
 		action.moveToElement(accountName).build().perform();
 		loginBtn.click();
 
-		String loginID = "sunilverma.ce@gmail.com";
-		String password = "Temp123#";
+		String loginID = "test@gmail.com";
+		String password = "TestPs";
 
 		driver.switchTo().frame("iframeLogin");
 		userName.sendKeys(loginID);
