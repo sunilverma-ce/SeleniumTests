@@ -40,6 +40,7 @@ public class SDHome {
 		action.moveToElement(accountName).build().perform();
 		loginBtn.click();
 
+		// Test variables
 		String loginID = "test@gmail.com";
 		String password = "TestPs";
 
