@@ -10,7 +10,7 @@ public class SDTStart {
 	public static WebDriver driver;
 
 	public static void main(String[] args) throws InterruptedException {
-
+       //Checking by saroj
 		System.setProperty("webdriver.chrome.driver", ".\\libs\\2.21\\windows\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.navigate().to("http://www.snapdeal.com");
